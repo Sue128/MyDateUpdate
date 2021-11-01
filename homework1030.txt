@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is a homework in 2021/10/30 !!!!!!!!!!!!!
+=======
+This is a homework in 2021/10/30 !!!!!!!!!
+>>>>>>> 8aafdf0a6c792e4c92ce2a98a83f8bb29807fbdb
