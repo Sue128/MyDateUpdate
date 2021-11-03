@@ -11,7 +11,12 @@ RUN yum -y install openssh-server
 #Specified WorkDir
 WORKDIR /MyDateUpdate
 #Run Command
+<<<<<<< HEAD
 #RUN echo `pwd`
 CMD /MyDateUpdate/push.sh ; sleep infinity
+=======
+RUN echo `pwd`
+#CMD ["/MyDateUpdate/push.sh"]
+>>>>>>> dd298077b18d7b6674eb19bdd9fdf5b709302508
 
 
