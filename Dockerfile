@@ -2,7 +2,7 @@ FROM centos
 MAINTAINER sue
 #copy reposity to continer
 RUN mkdir MyDateUpdate
-COPY . ./MyDateUpdate
+#COPY . ./MyDateUpdate
 #Install git and openssh
 RUN yum -y install vim
 RUN yum -y install git
